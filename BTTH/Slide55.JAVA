@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class Slide55 {
 public static void main(String[] args) {
-    int n ;
     Scanner sc = new Scanner(System.in);
      System.out.println("Cac so chia het cho 5: ");
      for (int i = 0; i <= 20; i++) {
@@ -10,3 +9,7 @@ public static void main(String[] args) {
         }
         System.out.println(i);
      }
+     sc.close();
+    }
+}   
+
